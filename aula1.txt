@@ -1,0 +1,65 @@
+Servidor WEB
+LAMP (Linux Apache MySQL PHP)
+CMS (Wordpress)
+
+Comandos para verificar as versões e serviços do servidor WEB:
+
+Linux >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ipconfig -a (verificar o ip)
+cat /etc/resolv.conf (verificar DNS)
+hostnamectl (versão do Linux)
+
+Apache >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+apachectl -v (versão do apache)
+systemctl status apache2 (status)
+          stop
+          start
+          restart
+
+Para verificar o funcionamento do apache:
+Abrir o browser e digitar o ip do servidor
+
+MySQL >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+musql -V
+
+PHP >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+php -v
+phpmyadmin (gerenciador de banco de dados)
+
+Para acessar o phpmyadmin:
+ip/pypmyadmin
+
+____________________________________________
+CMS - Wordpress:
+Pré-requisitos de instalação:
+1) Ter o LAMP(Linux Apache MySQL e php Instalados)
+2) Criar um banco de dados de nome wordpress:
+   *** Banco de daods já criado (user: wordpress, passd wordpress)
+3) Fazer a instalação:
+ip/wp
+* Definir o tpitulo do site
+* Definir o usuário: admin
+* Definir a senha: 123@senac
+
+4) Para acessar o painel administrativo
+ip/wp/wp-admin
+usuário: admin
+senha: 123@senac
+
+5) Instalar os plugins de segurança
+
+Wordfence Security
+- Firewall, antivírus  e reforço de senhas
+Instalar e fazer varreduras (scan) de vírus
+periodicamente(versão gratuita)
+
+All in one wp-migration
+- Back-up
+
+6) Instalar plugin para otimizar imagens
+smush - lazy
+
+
+
+
+
